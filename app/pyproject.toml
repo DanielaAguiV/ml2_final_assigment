@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "tweet-analysis-app"
+version = "0.1.0"
+description = "App para detectar emocions en tweets"
+authors = ["DanielaAguiV <daniela.aguiar@udea.edu.co>"]
+readme = "README.md"
+packages = [{include = "tweet_analysis_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+h5py = "^3.8.0"
+torch = "^2.0.0"
+scikit-learn = "^1.2.2"
+emoji = "1.6.3"
+nltk = "^3.8.1"
+spacy = "^3.5.2"
+spellchecker = "^0.4"
+fastapi = "^0.95.1"
+pydantic = "^1.10.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
