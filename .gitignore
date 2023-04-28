@@ -1,2 +1,4 @@
 keys.txt
 /bibliography/**
+__pycache__
+/app/models
